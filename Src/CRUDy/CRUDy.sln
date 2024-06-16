@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDy", "CRUDy.csproj", "{42DAC812-D96F-4763-A751-EBAD86475B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{CA694DE8-6D9B-437D-9E75-61790D90827E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{975F4596-2083-4265-9FDF-45D27E547C03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDyExample", "..\..\Example\CRUDy\CRUDyExample.csproj", "{5FB13A7B-19C0-4A6F-A645-D77D414CA988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42DAC812-D96F-4763-A751-EBAD86475B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DAC812-D96F-4763-A751-EBAD86475B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DAC812-D96F-4763-A751-EBAD86475B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DAC812-D96F-4763-A751-EBAD86475B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB13A7B-19C0-4A6F-A645-D77D414CA988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB13A7B-19C0-4A6F-A645-D77D414CA988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB13A7B-19C0-4A6F-A645-D77D414CA988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB13A7B-19C0-4A6F-A645-D77D414CA988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42DAC812-D96F-4763-A751-EBAD86475B22} = {CA694DE8-6D9B-437D-9E75-61790D90827E}
+		{5FB13A7B-19C0-4A6F-A645-D77D414CA988} = {975F4596-2083-4265-9FDF-45D27E547C03}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8F59FA0-15AE-4952-B88A-292BC4B2F7F2}
+	EndGlobalSection
+EndGlobal

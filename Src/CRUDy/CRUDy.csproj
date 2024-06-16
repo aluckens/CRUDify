@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<description>CRUDy is a C# library based on .NET 8 and Entity Framework Core, designed to simplify CRUD (Create, Read, Update, Delete) operations in applications. It provides a generic and extensible implementation of CRUD services, enabling developers to focus on their application's business logic without worrying about common database operations.</description>
+		<authors>Luckenson Antoine</authors>
+		<PackageId>CRUDy</PackageId>
+		<Version>1.0.0</Version>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild> 
+		<RepositoryUrl>https://github.com/aluckens/CRUDy</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>crud, .net, entity-framework, repository, CRUDy, CRUDify, simplify</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>

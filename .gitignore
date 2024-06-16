@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Example/CRUDify/bin/Debug/net8.0
+/Example/CRUDify/obj
+/Src/.vs
+/Src/CRUDify/.vs
+/Src/CRUDify/bin/Debug/net8.0
+/Src/CRUDify/obj
+/Example/CRUDy/bin
+/Example/CRUDy/obj
+/Src/CRUDy/.vs
+/Src/CRUDy/bin/Release
+/Src/CRUDy/obj
